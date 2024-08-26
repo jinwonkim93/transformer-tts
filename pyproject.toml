@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "transformer-tts"
+version = "0.1.0"
+description = ""
+authors = ["jinwonkim93 <code.eric22@gmail.com>"]
+readme = "README.md"
+packages = [{include = "transformer_tts", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+g2pk = "^0.9.4"
+numpy = "<2.0"
+omegaconf = "^2.3.0"
+easydict = "^1.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
